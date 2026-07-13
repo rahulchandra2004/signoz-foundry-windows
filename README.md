@@ -60,5 +60,6 @@ Run the included Windows PowerShell script to start streaming synthetic telemetr
 * **Database / Storage:** ClickHouse
 * **Container Orchestration:** Foundry / Docker
 * **Operating System:** Windows
-
-
+---
+## AI Assistance Disclosure
+As mandated by the official agents of SigNoz Hackathon rules, I am required to acknowledge that I have used AI-powered assistance tools for this project, including local PowerShell network routing troubleshooting, OpenTelemetry CLI parameter debugging, containerized environment configuration, and project documentation structural editing.
