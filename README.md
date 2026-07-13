@@ -7,7 +7,7 @@ A lightweight 0-cloud local observability sandbox for the Agents of SigNoz Hacka
 ## Read the Full Technical Blog Post
 
 For technical details on the implementation specifics, Windows-specific Docker networking footguns, and more, read the full post on Dev.to:
- [Read the dev.to Article here](INSERT_YOUR_DEVTO_LINK_HERE)
+ [Read the dev.to Article here](https://dev.to/rahulchandra2004/visualizing-deep-trace-hierarchies-self-hosting-signoz-via-foundry-on-windows-5b13)
 ---
 
 ##  Why This Project?
