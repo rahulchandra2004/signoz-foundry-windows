@@ -2,7 +2,7 @@
 
 A lightweight 0-cloud local observability sandbox for the Agents of SigNoz Hackathon. This project demonstrates a method of circumventing typical observational cloud costs while being able to fully self-host a 12-container observability backend running on Windows with **foundry-rs/foundry**, giving us deep tracing of multi-tier microservice call trees at the level of microsecond resolution.
 
-![Project Banner](./assets/banner.png)
+![Project Banner](assets/banner.png)
 
 ## Read the Full Technical Blog Post
 For technical details on the implementation specifics, Windows-specific Docker networking footguns, and more, read the full post on Dev.to:
