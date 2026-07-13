@@ -31,7 +31,7 @@ git clone https://github.com/rahulchandra2004/signoz-foundry-windows.git
 cd signoz-foundry-windows
 ```
 
-### 2. Launch the SigNoz Backend via Foundry
+### Launch the SigNoz Backend via Foundry
 Use the included Foundry manifest to spin up the local observability stack (including ClickHouse, Query Service, OTLP Receivers, and Frontend):
 
 ```bash
@@ -39,19 +39,20 @@ foundry up -f casting.yaml
 ```
 
 Wait a few minutes for all 12 containers and the ClickHouse database to initialize. Once ready, access the UI at http://localhost:8383.
-
-### 3. Stream Synthetic Deep Trace Telemetry
+---
+### Stream Synthetic Deep Trace Telemetry
 Run the included Windows PowerShell script to start streaming synthetic telemetry directly into port 4317 with a 15-span child hierarchy:
 
 ```bash
 .\generate-telemetry.ps1
 ```
-### 4. Explore the Observability Stack
+---
+### Explore the Observability Stack
 * **Traces Explorer:** Navigate to the Traces tab to view nested cascading waterfall flamegraphs.
 * **APM Metrics:** Check the Application Health metrics to observe live throughput (~1.75 ops/s) and latency distributions.
 * **Logs Explorer:** Filter structured JSON log payloads correlated directly with trace IDs.
 * **Alerts Engine:** Review proactive metric-based threshold alerts configured in the UI Query Builder.
-
+---
 ### Tech Stack
 * **Observability Backend:** SigNoz
 * **Ingestion Standard:** OpenTelemetry (OTel / OTLP)
